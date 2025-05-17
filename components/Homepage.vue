@@ -24,7 +24,7 @@ import { IconsElement, IconsInstagram, IconsLinkedin } from '#components';
           <h1 class="text-extra-large uppercase">My name <br class="hidden md:block"> is <b> Fawzi </b><br class="hidden md:block">  <b>Sayed...</b></h1>
           <h3 class="text-large"><b>Product Designer </b> based in Egypt</h3>
         </div>
-        <nuxt-link to="#Contact" class="button px-5 lg:px-10 py-4 w-fit">
+        <nuxt-link to="#Contact" class="button px-5 lg:px-10 py-4">
           <span>Let’s talk with me</span>
           <IconsArrow />
         </nuxt-link>
@@ -41,7 +41,7 @@ import { IconsElement, IconsInstagram, IconsLinkedin } from '#components';
       </div>
     </div>
     <div class="relative profile-section">
-      <img src="../assets/images/profilepic.png" alt="profilepic" width="528" height="691" class="relative">
+      <img src="/images/profilepic.png" alt="profilepic" width="528" height="691" class="relative">
       <div class="absolute top-0 left-0 h-full">
         <IconsElement/>
       </div>

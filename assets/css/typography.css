@@ -25,10 +25,17 @@
   letter-spacing: 0;
 }
 
-.heading-regular {
+.heading-small {
   font-size: 1.125rem;
   line-height: 1.55;
   letter-spacing: 0;
+}
+
+.heading-regular {
+  font-size: 1.5rem;
+  line-height: 1.55;
+  letter-spacing: 0;
+  text-transform: capitalize;
 }
 
 .heading-medium {
@@ -58,6 +65,15 @@
   .text-extra-large {
     font-size: 3.5rem;
   }
+  .heading-large {
+    font-size: 2rem;
+  }
+  .heading-small {
+    font-size: 1rem;
+  }
+  .heading-medium {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -69,5 +85,8 @@
   }
   .text-extra-large {
     font-size: 2.75rem;
+  }
+  .heading-regular {
+    font-size: 1rem;
   }
 }
