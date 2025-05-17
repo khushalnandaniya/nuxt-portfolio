@@ -16,11 +16,58 @@
 }
 .text-large {
   font-size: 2rem;
-  line-height: 2;
-  letter-spacing: -3%;
+  line-height: 1;
+  letter-spacing: -0.03em;
 }
 .text-extra-large {
   font-size: 6.375rem;
   line-height: 0.88;
   letter-spacing: 0;
+}
+
+.heading-regular {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.heading-medium {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.heading-large {
+  font-size: 3rem;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .text-extra-large {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .text-large {
+    font-size: 1.25rem;
+  }
+  .text-extra-large {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text-extra-small {
+    font-size: 0.5rem;
+  } 
+  .text-small {
+    font-size: 1rem;
+  }
+  .text-extra-large {
+    font-size: 2.75rem;
+  }
 }

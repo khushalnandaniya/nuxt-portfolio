@@ -7,6 +7,73 @@
     --white : #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: "poppin-regular";
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.gradient-bg {
+  background: linear-gradient(to left, #FFB147, #FF6C63, #B86ADF);
+}
+
+.gradient-line {
+  position: relative;
+  width: fit-content;
+}
+
+.gradient-line::before {
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-radius: 9999px;
+  display: inline;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.gradient-line::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: linear-gradient(to right, #FFB147, #FF6C63, #B86ADF);
+  transition: transform 0.4s ease;
+  z-index: 1;
+}
+
+.gradient-line.active::after,
+.gradient-line:hover::after {
+  transform: scaleX(1);
+}
+
+.button {
+  display: flex;
+  gap: 0.5rem;
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: var(--white);
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-wrap-mode: nowrap;
+}
+
+.button:hover {
+  color: var(--black);
+  background-color: var(--white);
 }
