@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { IconsMinus, IconsPlus } from '#components';
-import { ref } from 'vue';
 
 const data = [
   {
