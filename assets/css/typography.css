@@ -25,6 +25,12 @@
   letter-spacing: 0;
 }
 
+.heading-extra-small {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+}
+
 .heading-small {
   font-size: 1.125rem;
   line-height: 1.55;
