@@ -25,7 +25,7 @@ const data = [
     <details
       v-for="(item,index) in data" 
       :key="index"
-      class="w-full pb-4 md:pb-6 mb-4 md:mb-6 last:mb-0 border-b-2 border-[#14131380]"
+      class="w-full pb-4 md:pb-6 mb-4 md:mb-6 last:mb-0 border-b-2 border-[#14131380] cursor-pointer"
     >
       <summary class="flex justify-between gap-3">
         <h3 class="heading-medium title">{{ item.title }}</h3>

@@ -23,7 +23,7 @@ const data = [
     <div 
       v-for="(item,index) in data"
       :key="index"
-      class="border-2 p-4 rounded-2xl w-full sm:w-auto skill-card__wrapper"
+      class="border-2 p-4 rounded-2xl w-full sm:w-auto skill-card__wrapper shadow-md hover:shadow-xl transition-all duration-500 ease-in-out hover:-translate-y-1"
     >
       <h2 class="heading-medium mb-4 pb-4 border-b-2">{{ item.title }}</h2>
 

@@ -34,7 +34,7 @@ const data = [
   <div class="mt-6 md:mt-12 flex flex-col gap-10">
     <div
       v-for="(item,index) in data" 
-      class="rounded-3xl flex drop-shadow-[0px_6px_64px_rgba(112,144,176,0.5)] overflow-hidden bg-[azure]"
+      class="rounded-3xl flex drop-shadow-[0px_6px_64px_rgba(112,144,176,0.5)] overflow-hidden bg-[azure] transition-transform duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg"
       :class="item.imageDirection == 'right' ? 'flex-col-reverse md:flex-row' : 'flex-col-reverse md:flex-row-reverse'"
     >
       <div class="flex-1 my-auto">

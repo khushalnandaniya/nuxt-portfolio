@@ -41,7 +41,7 @@ import { IconsElement, IconsInstagram, IconsLinkedin } from '#components';
       </div>
     </div>
     <div class="relative profile-section">
-      <img src="/images/profilepic.png" alt="profilepic" width="528" height="691" class="relative">
+      <img src="/images/profilepic.png" alt="profilepic" width="528" height="691" class="relative filter" loading="lazy"  placeholder="blur">
       <div class="absolute top-0 left-0 h-full">
         <IconsElement/>
       </div>
