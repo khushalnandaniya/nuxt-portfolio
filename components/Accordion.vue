@@ -2,22 +2,16 @@
 import { ref } from 'vue';
 const data = [
   {
-    time: "-2018 - Present",
-    company: "-Rolling Thunder",
-    role: "Lead UI/UX Designer",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, totam ab? Iure vero, fugiat nihil perferendis pariatur exercitationem corporis modi inventore possimus. Eius, dolorum? In?"
+    time: "January 2024 – June 2024",
+    company: "-CreatPix Infotech LLP",
+    role: "Web Development Intern",
+    description: "During this internship, I was immersed in real-world eCommerce development. I contributed to multiple Shopify projects—translating design mockups into dynamic interfaces, writing maintainable code, and learning how to build for both form and function. I also deepened my understanding of collaborative workflows and Agile processes."
   },
   {
-    time: "-2018 - Present",
-    company: "-Rolling Thunder",
-    role: "Lead UI/UX Designer",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, totam ab? Iure vero, fugiat nihil perferendis pariatur exercitationem corporis modi inventore possimus. Eius, dolorum? In?"
-  },
-  {
-    time: "-2018 - Present",
-    company: "-Rolling Thunder",
-    role: "Lead UI/UX Designer",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, totam ab? Iure vero, fugiat nihil perferendis pariatur exercitationem corporis modi inventore possimus. Eius, dolorum? In?"
+    time: "July 2024 – Present",
+    company: "-CreatPix Infotech LLP",
+    role: "Frontend Developer",
+    description: "At CreatPix, I craft high-performance Shopify experiences with a strong focus on responsive design, clean code, and real-world business goals. From theme customization using Liquid to building reusable components in Vue and Nuxt, I work alongside designers and backend developers to bring engaging online stores to life. Every line of code aims to improve user experience, performance, and results."
   },
 ]
 </script>
@@ -29,7 +23,7 @@ const data = [
       class="overflow-hidden cursor-pointer"
     >
       <summary class="flex flex-col gap-3 pb-5 border-b-[1px] border-white mb-5">
-        <div class="flex justify-between">
+        <div class="flex justify-between flex-col md:flex-row">
           <span class="text-small italic">{{ item.time }}</span>
           <span class="text-base">{{ item.company }}</span>
         </div>

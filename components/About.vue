@@ -15,7 +15,7 @@ import Skillcard from './Skillcard.vue';
             <h2 class="heading-large uppercase">My experience</h2>
           </div>
           <p class="heading-small">
-            Hello there! My name is Jacob Jones. I am a web designer & developer, and I'm very passionate and dedicated to my work.
+            Shopify & Frontend Developer with experience building responsive eCommerce stores and web apps using Liquid, Vue.js, Nuxt, and React. Focused on clean code, performance, and user-friendly design.
           </p>
         </div>
         <a href="/resume.pdf" download>

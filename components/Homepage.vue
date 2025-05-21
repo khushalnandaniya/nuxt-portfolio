@@ -21,8 +21,8 @@ import { IconsElement, IconsInstagram, IconsLinkedin } from '#components';
       </div>
       <div class="flex flex-col gap-12 z-[1]">
         <div class="flex flex-col gap-6">
-          <h1 class="text-extra-large uppercase">My name <br class="hidden md:block"> is <b> Fawzi </b><br class="hidden md:block">  <b>Sayed...</b></h1>
-          <h3 class="text-large"><b>Product Designer </b> based in Egypt</h3>
+          <h1 class="text-extra-large uppercase">My name <br class="hidden md:block"> is <b> Khsuhal </b><br class="hidden md:block">  <b>Nandaniya</b></h1>
+          <h3 class="text-large"><b>Shopify Developer</b> focused on frontend design, based in India</h3>
         </div>
         <nuxt-link to="#Contact" class="button px-5 lg:px-10 py-4">
           <span>Let’s talk with me</span>
@@ -32,17 +32,17 @@ import { IconsElement, IconsInstagram, IconsLinkedin } from '#components';
       <div class="flex justify-between flex-wrap gap-4">
         <div class="flex gap-3 items-center">
           <IconsPhone />
-          <span>+20 11 43 63 73 41</span>
+          <span>+91 9328537327</span>
         </div>
         <div class="flex gap-3 items-center">
           <IconsEmail />
-          <span>fawzisayed1209@gmail.com</span>
+          <span>nandaniyakhushal@gmail.com</span>
         </div>
       </div>
     </div>
     <div class="relative profile-section">
       <img src="/images/profilepic.png" alt="profilepic" width="528" height="691" class="relative filter" loading="lazy"  placeholder="blur">
-      <div class="absolute top-0 left-0 h-full">
+      <div class="absolute top-[5%] left-0 h-full">
         <IconsElement/>
       </div>
     </div>

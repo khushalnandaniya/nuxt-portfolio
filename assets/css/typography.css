@@ -20,7 +20,7 @@
   letter-spacing: -0.03em;
 }
 .text-extra-large {
-  font-size: 6.375rem;
+  font-size: 5.5rem;
   line-height: 0.88;
   letter-spacing: 0;
 }
@@ -62,14 +62,17 @@
   .text-extra-large {
     font-size: 5rem;
   }
+  .text-large {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1280px) {
   .text-large {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .text-extra-large {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .heading-large {
     font-size: 2rem;

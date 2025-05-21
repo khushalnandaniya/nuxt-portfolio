@@ -13,6 +13,6 @@ import { IconsInstagram, IconsLinkedin } from '#components';
                 <IconsInstagram />
             </nuxt-link>
         </div>
-    <p class="text-extra-small">Copyright ©2024 Fawzi Sayed. All right reserved.</p>
+    <p class="text-extra-small">Copyright ©2024 Khushal Nandaniya. All right reserved.</p>
     </div>
 </template>

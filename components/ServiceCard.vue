@@ -3,21 +3,26 @@ import { IconsMinus, IconsPlus } from '#components';
 
 const data = [
   {
-    title : "Web Design",
-    subtitle : "You can customize a template or make your own from scratch,with an immersive library at your disposal. You can customize a template",
-    description : "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem provident pariatur possimus, asperiores sint ratione <br> adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam. adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam</p>"
+    title: "Shopify Store Setup & Customization",
+    subtitle: "Build and customize Shopify stores tailored to your brand, including theme development, design enhancements, and performance optimizations using Liquid.",
+    description: "<p>I develop fully customized Shopify stores that reflect your brand’s identity and business goals. Whether starting from scratch or enhancing an existing theme, I use Liquid to tailor every aspect — from layout and design to functionality — ensuring your store looks great and performs flawlessly. I also focus on optimizing theme speed and responsiveness to provide smooth shopping experiences on all devices.</p>"
   },
   {
-    title : "Web Design",
-    subtitle : "You can customize a template or make your own from scratch,with an immersive library at your disposal. You can customize a template",
-    description : "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem provident pariatur possimus, asperiores sint ratione <br> adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam. adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam</p>"
+    title: "Frontend Development & UX/UI",
+    subtitle: "Create fast, responsive web apps and improve user experience with Vue.js, Nuxt, and React to ensure seamless navigation and higher conversions.",
+    description: "<p>Using modern frameworks like Vue.js, Nuxt, and React, I build fast, responsive frontend applications that work seamlessly across desktops, tablets, and mobiles. I improve your store’s user interface and user experience by designing intuitive navigation, clear call-to-actions, and visually appealing layouts — all aimed at increasing customer engagement and boosting sales.</p>"
   },
   {
-    title : "Web Design",
-    subtitle : "You can customize a template or make your own from scratch,with an immersive library at your disposal. You can customize a template",
-    description : "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem provident pariatur possimus, asperiores sint ratione <br> adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam. adipisci deserunt aliquid et quidem harum veniam laborum ullam adipisci deserunt aliquid et quidem harum veniam laborum ullam</p>"
+    title: "API & Apps Integration",
+    subtitle: "Integrate third-party services, payment gateways, and build custom Shopify or frontend apps to extend your store’s functionality.",
+    description: "<p>I help extend your store’s capabilities by integrating third-party tools such as payment gateways, marketing platforms, and inventory systems. Additionally, I develop custom Shopify apps and frontend web applications tailored to your unique business needs, automating workflows and adding new features that make managing your store easier and more efficient.</p>"
+  },
+  {
+    title: "Support & Maintenance",
+    subtitle: "Provide reliable troubleshooting, updates, and maintenance to keep your eCommerce store secure and running smoothly.",
+    description: "<p>Post-launch, I offer dependable support to keep your Shopify store running smoothly. This includes troubleshooting bugs, applying updates, ensuring security, and performing regular maintenance. My goal is to minimize downtime and keep your customers happy with a seamless shopping experience.</p>"
   }
-]
+];
 
 </script>
 <template>
