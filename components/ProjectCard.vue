@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const data = [
   {
-    title : "Project Name",
-    description : "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    title : "The Cotton Soul",
+    description : `<p>This is a full Shopify build for a purpose-driven clothing brand. I designed a clean and soulful interface in Figma, then developed the website using Shopify, Liquid, and custom CSS/JS. Key features include a hero banner with brand story, collage-style product showcase, mobile-optimized layout, and a custom carousel titled “Where Cotton Meets Soul.”</p>`,
     projectlink : "https://thecottonsoul.com/",
     password : "thesoul",
     image : "/images/project.png",
@@ -10,23 +10,14 @@ const data = [
     skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png']
   },
   {
-    title : "Project Name",
-    description : "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    projectlink : "https://thecottonsoul.com/",
-    password : "thesoul",
-    image : "/images/project.png",
+    title : "Hell Style",
+    description : `<p>This is a Gen Z-focused fashion store built on Shopify with a bold, dark-themed UI. I handled the entire design-to-development process, from crafting the brand identity and logo in Figma to building animated scroll sections, product sliders, and a mobile-first shopping experience. The edgy, fast-loading interface aligns with streetwear culture and anime-inspired aesthetics.</p>`,
+    projectlink : "https://hell-style.myshopify.com/",
+    password : "thehell",
+    image : "/images/project2.png",
     imageDirection : "left",
     skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png']
   },
-  {
-    title : "Project Name",
-    description : "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    projectlink : "https://thecottonsoul.com/",
-    password : "thesoul",
-    image : "/images/project.png",
-    imageDirection : "right",
-    skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png']
-  }
 ]
 </script>
 
@@ -35,12 +26,15 @@ const data = [
     <div
       v-for="(item,index) in data" 
       class="rounded-3xl flex drop-shadow-[0px_6px_64px_rgba(112,144,176,0.5)] overflow-hidden bg-[azure] transition-transform duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg"
-      :class="item.imageDirection == 'right' ? 'flex-col-reverse md:flex-row' : 'flex-col-reverse md:flex-row-reverse'"
+      :class="item.imageDirection == 'right' ? 'flex-col-reverse lg:flex-row' : 'flex-col-reverse lg:flex-row-reverse'"
     >
       <div class="flex-1 my-auto">
         <div class="flex justify-center items-start gap-3.5 md:gap-6 flex-col py-5 px-5 md:px-10">
           <h3 class="heading-medium">{{ item.title }}</h3>
-          <p class="heading-extra-small">{{ item.description }}</p>
+          <div
+            v-html="item.description" 
+            class="heading-extra-small">
+        </div>
           <nuxt-link :to="item.projectlink" target="_blank">
             <div class="button px-4 md:px-10 py-4">
               <span>View Project</span>
@@ -67,7 +61,8 @@ const data = [
         <img 
           :src="item.image" 
           :alt="item.title" 
-          class="object-cover h-full"
+          loading="lazy"
+          class="object-cover h-full w-full"
         />
       </div>
     </div>
