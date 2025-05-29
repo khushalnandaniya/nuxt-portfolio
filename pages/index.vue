@@ -1,4 +1,14 @@
 <script setup lang="ts">
+useHead({
+  title: 'Projects | Khushal Nandaniya',
+  meta: [
+    {
+      name: 'description',
+      content: 'See Shopify and Nuxt-based projects by Khushal Nandaniya, a frontend developer in India.'
+    }
+  ]
+})
+
 import { ref } from 'vue';
 import Contact from '~/components/Contact.vue';
 import Footer from '~/components/Footer.vue';
