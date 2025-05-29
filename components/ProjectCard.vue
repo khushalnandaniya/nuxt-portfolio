@@ -7,7 +7,8 @@ const data = [
     password : "thesoul",
     image : "/images/project.png",
     imageDirection : "right",
-    skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png']
+    skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png'],
+    theme : "Dawn"
   },
   {
     title : "Hell Style",
@@ -16,7 +17,8 @@ const data = [
     password : "thehell",
     image : "/images/project2.png",
     imageDirection : "left",
-    skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png']
+    skill : ['/images/shopify.png','/images/html.png','/images/css.png','/images/javascript.png','images/liquid.png'],
+    theme : "Prestige"
   },
 ]
 </script>
@@ -44,6 +46,10 @@ const data = [
           <div>
             <span>Password :</span>
             {{ item.password }}
+          </div>
+          <div>
+            <span>Theme :</span>
+            {{ item.theme }}
           </div>
           <div class="flex">
             <div 
